@@ -1,2 +1,24 @@
-# raspberrypi-pico-cpp-template-
-Template Repository for C/C++ Projects with the Raspberry Pi Pico using the Pico-SDK
+#  Template for Raspberrypi Pico Projects written in C/C++ language using the pico SDK
+
+# Project Structure
+    - src
+      - main.cpp   <= Main Function
+    - out
+      - build <= cmake generated build directory
+      
+
+# Helper Scripts
+
+Make sure that you set the ```PICO_SDK_PATH``` Environment Variable to your [Pico-SDK](https://github.com/raspberrypi/pico-sdk) directory.
+
+## Configure Project
+    ./configure.sh
+
+## Build Project
+    ./build.sh
+
+## Flash Project to Raspberry Pi Pico (via picoprobe)
+    ./picoprobe-flash.sh
+
+## Reset Raspberry Pi Pico (via picoprobe)
+    ./reset.sh
