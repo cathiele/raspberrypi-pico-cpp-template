@@ -7,6 +7,7 @@ on:
 
 env:
   PICO_SDK_FETCH_FROM_GIT: ON
+  ACTIONS_ALLOW_UNSECURE_COMMANDS: true
 
 jobs:
   
