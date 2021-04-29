@@ -1,3 +1,5 @@
+![Pipeline status](https://github.com/cathiele/raspberrypi-pico-cpp-template/actions/workflows/cmake.yml/badge.svg)
+    
 #  Template for Raspberrypi Pico Projects written in C/C++ language using the pico SDK
 
 # Project Structure
